@@ -57,7 +57,7 @@ body {
 .navbar ul li a:hover {
   color: #1676ba;
   font-weight: bold;
-  text-shadow: 2px 2px 20px #2b2b2b;
+  text-shadow: 2px 2px 20px #1676BA;
 }
 
 .hero {
@@ -163,13 +163,130 @@ body {
 }
 
 .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 10em;
-  background-color: #1676BA;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(14.81%, #1676BA), color-stop(117.28%, #76C6FF));
+  background: linear-gradient(180deg, #1676BA 14.81%, #76C6FF 117.28%);
   height: 50em;
+  max-width: 100%;
+}
+
+.card-01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-wrap: inherit;
+  height: 50em;
+  width: 50%;
+}
+
+.card-01 h2 {
+  margin-bottom: 2em;
+  color: white;
+}
+
+.card-01 p {
+  color: white;
+  max-width: 20em;
+}
+
+.card-02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-wrap: inherit;
+  height: 50em;
+  width: 50%;
+}
+
+.card-02 h2 {
+  margin-bottom: 2em;
+  color: white;
+}
+
+.card-02 p {
+  color: white;
+  max-width: 20em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  background-color: #e5e5e5;
+}
+
+.contact .plan-your-next-vacation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5em;
+  background-color: red;
+  max-width: 50%;
 }
 
 .contact-container {
-  background-color: #e5e5e5;
-  height: 50em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5em;
+  margin-left: 50%;
+  background: linear-gradient(140.07deg, #2295FF 45.98%, rgba(0, 26, 255, 0) 136.56%);
+  border-radius: 20px;
+}
+
+.contact-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-container form label {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.contact-container form input {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
