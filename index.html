@@ -6,16 +6,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
         <link rel="icon" type="image/png" href="./images/favicon.ico"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./js/main.js" defer></script>
         <title>GoodLife Travel</title>
     </head>
 <body>
-    <div id="home"></div>
+    <div class="navbar">
+        <img class="logo" src="./images/companylogo.png" alt="Logo">
+        <ul class="nav-item-list">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">About</li>
+            <li class="nav-item">Contact</li>
+        </ul>
+    </div>
+
+    <div class="mobile-nav">
+        <img src="./images/companylogo.png" alt="Logo">
+        <i id="hamburger" onclick="show()" class="fa-solid fa-bars"></i>
+        <ul id="mobile-nav-list" class="mobile-nav-list">
+            <li class="mobile-nav-item">Home</li>
+            <li class="mobile-nav-item">About</li>
+            <li class="mobile-nav-item">Contact</li>
+        </ul>
+    </div>
+    
+
+    <section class="hero">
+        <div class="hero-img-container">
+            <img class="hero-img" src="./images/water_mountains.png" alt="">
+            <img class="hero-img" src="./images/snow_mountains.png" alt="">
+            <img class="hero-img" src="./images/city_water.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- <div id="home"></div>
     <nav class="navbar">
         <div class="logo-and-navbar-container">
             <div class="logo">
                 <a href="#home"><img src="./images/companylogo.png" alt="GoodLife Travel Logo"></a>
             </div>
-        <div>
+        <div class="nav-list">
             <ul>
                 <li><a href="#home" >Home</a></li>
                 <li><a href="#about" >About</a></li>
@@ -104,7 +135,7 @@
                 <input type="submit" id="submit" name="submit" value="Submit">
             </form>
         </div>
-    </section>
+    </section> -->
 
 
 </body>
