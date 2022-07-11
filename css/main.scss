@@ -68,24 +68,22 @@ body {
 
     .hero-img-container{
         display: flex;
-        flex-wrap: wrap;
+
         justify-content: center;
         align-items: center;
         gap: 50px;
 
         .hero-img{
-            height: 25%;
+            height: 40vw;
             border-radius: 15px;
             box-shadow: 0px 0px 30px 10px hsla(0, 0%, 0%, 0.286);
         }
     }
 }
 
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1413px){
 
- .hero-img{
-    height: 5vw;
- }
+
 }
 
 @media only screen and (max-width: 1000px){
@@ -130,6 +128,10 @@ body {
             background: rgb(46, 48, 57);
             cursor: pointer;
         }
+    }
+
+    .hero-img-container{
+        flex-direction: column;
     }
 }
 
