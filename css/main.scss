@@ -52,6 +52,7 @@ body {
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 1;
     background: rgb(56, 59, 69);
     padding: .5rem 0 .5rem 0;
 
@@ -78,6 +79,99 @@ body {
             height: 40vw;
             border-radius: 15px;
             box-shadow: 0px 0px 30px 10px hsla(0, 0%, 0%, 0.286);
+        }
+        .img-container01{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .3s ease;
+            max-width: fit-content;
+
+            p{
+                display: none;
+                position: absolute;
+                background: rgba(0, 0, 0, 0.496);
+                color:white;
+                font-size: 3vw;
+                padding: .5em 0 .5em 0;
+                width: 100%;
+                text-align: center;
+                border-radius: 2px;
+                font-family: 'Nanum Myeongjo', serif;
+                transition: .3s ease;
+            }
+        }
+        .img-container01:hover{
+            filter: grayscale(1);
+            transition: .3s ease;
+            transform: scale(101%);
+
+            p{
+                display: block;
+                transition: .3s ease;
+            }
+        }
+        .img-container02{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .3s ease;
+            max-width: fit-content;
+
+            p{
+                display: none;
+                position: absolute;
+                background: rgba(0, 0, 0, 0.496);
+                color:white;
+                font-size: 3vw;
+                padding: .5em 0 .5em 0;
+                width: 100%;
+                text-align: center;
+                border-radius: 2px;
+                font-family: 'Nanum Myeongjo', serif;
+                transition: .3s ease;
+            }
+        }
+        .img-container02:hover{
+            filter: grayscale(1);
+            transition: .5s ease;
+            transform: scale(101%);
+            
+            p{
+                display: block;
+                transition: .3s ease;
+            }
+        }
+        .img-container03{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .3s ease;
+            max-width: fit-content;
+
+            p{
+                display: none;
+                position: absolute;
+                background: rgba(0, 0, 0, 0.496);
+                color:white;
+                font-size: 3vw;
+                padding: .5em 0 .5em 0;
+                width: 100%;
+                text-align: center;
+                border-radius: 2px;
+                font-family: 'Nanum Myeongjo', serif;
+                transition: .3s ease;
+            }
+        }
+        .img-container03:hover{
+            filter: grayscale(1);
+            transition: .5s ease;
+            transform: scale(101%);
+
+            p{
+                display: block;
+                transition: .3s ease;
+            }
         }
     }
 }

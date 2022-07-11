@@ -65,6 +65,7 @@ body {
           align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 1;
   background: #383b45;
   padding: .5rem 0 .5rem 0;
 }
@@ -104,6 +105,147 @@ body {
   border-radius: 15px;
   -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.286);
           box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.286);
+}
+
+.hero .hero-img-container .img-container01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.hero .hero-img-container .img-container01 p {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.496);
+  color: white;
+  font-size: 3vw;
+  padding: .5em 0 .5em 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 2px;
+  font-family: 'Nanum Myeongjo', serif;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.hero .hero-img-container .img-container01:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+}
+
+.hero .hero-img-container .img-container01:hover p {
+  display: block;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.hero .hero-img-container .img-container02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.hero .hero-img-container .img-container02 p {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.496);
+  color: white;
+  font-size: 3vw;
+  padding: .5em 0 .5em 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 2px;
+  font-family: 'Nanum Myeongjo', serif;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.hero .hero-img-container .img-container02:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+}
+
+.hero .hero-img-container .img-container02:hover p {
+  display: block;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.hero .hero-img-container .img-container03 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.hero .hero-img-container .img-container03 p {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.496);
+  color: white;
+  font-size: 3vw;
+  padding: .5em 0 .5em 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 2px;
+  font-family: 'Nanum Myeongjo', serif;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.hero .hero-img-container .img-container03:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+}
+
+.hero .hero-img-container .img-container03:hover p {
+  display: block;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 @media only screen and (max-width: 1000px) {
