@@ -10,49 +10,90 @@
         <script src="./js/main.js" defer></script>
         <title>GoodLife Travel</title>
     </head>
-<body id="hero">
-    <div class="navbar">
-        <img class="logo" src="./images/companylogo.png" alt="Logo">
-        <ul class="nav-item-list">
-            <li class="nav-item"><a href="#hero">Home</a></li>
-            <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
+<body id="home">
+    <div class="container">
 
-    <div class="mobile-nav">
-        <img src="./images/companylogo.png" alt="Logo">
-        <i id="hamburger" onclick="toggleMenu()" class="fa-solid fa-bars"></i>
-        <ul id="mobile-nav-list" class="mobile-nav-list">
-            <li class="mobile-nav-item"><a href="#hero">Home</a></li>
-            <li class="mobile-nav-item"><a href="#about">About</a></li>
-            <li class="mobile-nav-item"><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
+        <div class="navbar">
+            <img class="logo" src="./images/companylogo.png" alt="Logo">
+            <ul class="nav-item-list">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     
+        <div class="mobile-nav">
+            <img src="./images/companylogo.png" alt="Logo">
+            <i id="hamburger" onclick="toggleMenu()" class="fa-solid fa-bars"></i>
+            <ul id="mobile-nav-list" class="mobile-nav-list">
+                <li class="mobile-nav-item"><a href="#home">Home</a></li>
+                <li class="mobile-nav-item"><a href="#about">About</a></li>
+                <li class="mobile-nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+    
+        <section class="hero">
+            <div class="hero-img-container">
+                <div class="img-container01">
+                    <p>Relax</p>
+                    <img class="hero-img" src="./images/water_mountains.png" alt="">
+                </div>
+                <div class="img-container02">
+                    <p>Adventure</p>
+                    <img class="hero-img" src="./images/snow_mountains.png" alt="">
+                </div>
+                <div class="img-container03">
+                    <p>Socialize</p>
+                    <img class="hero-img" src="./images/city_water.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="about-section" id="about">
+            <h2>About</h2>
+            <div class="about-content-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas vel a natus excepturi id! Officiis assumenda minus odio ipsum eos veritatis consequatur sed nemo dolores, ullam adipisci, mollitia aliquam nihil animi est fugiat voluptates quam perspiciatis quos. Consectetur dicta enim adipisci. Voluptatibus, rerum nihil facere nam tempora sint enim!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt consectetur architecto omnis tempore ea dicta natus minus distinctio placeat dolores, numquam qui earum facilis. Quam placeat, nam minus cum corporis animi tempore consequuntur, facilis aliquam debitis quisquam dolorem ipsa magnam accusantium culpa necessitatibus, nostrum magni distinctio quaerat consequatur! Placeat!</p>
+            </div> 
+        </section>
 
-    <section class="hero">
-        <div class="hero-img-container">
-            <div class="img-container01">
-                <p>Relax</p>
-                <img class="hero-img" src="./images/water_mountains.png" alt="">
+        <section class="contact-section" id="contact">
+            <h2>Contact</h2>
+
+            <div class="contact-content-container">
+
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum facilis vero, delectus repellendus atque magni!</p>
+                <div>
+                    <form action="#" method="post" class="form">
+                        <fieldset>
+                            <div>
+                                <label for="firstName">First name: </label><br>
+                                <input type="text" name="firstName" id="firstName">
+                            </div>
+                            <div>
+                                <label for="lastName">Last name: </label><br>
+                                <input type="text" name="lastName" id="lastName">
+                            </div>
+                            <div>
+                                <label for="email">Email: </label><br>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div>
+                                <label for="phone">Phone: </label><br>
+                                <input type="text" name="phone" id="phone">
+                            </div>
+                            <div>
+                                <label for="question">Comment:</label><br>
+                                <textarea name="question" id="question"></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
-            <div class="img-container02">
-                <p>Adventure</p>
-                <img class="hero-img" src="./images/snow_mountains.png" alt="">
-            </div>
-            <div class="img-container03">
-                <p>Socialize</p>
-                <img class="hero-img" src="./images/city_water.png" alt="">
-            </div>
-        </div>
-    </section>
-    <section class="about-section" id="about">
-        <h2>About</h2>
-        <div class="about-content-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas vel a natus excepturi id! Officiis assumenda minus odio ipsum eos veritatis consequatur sed nemo dolores, ullam adipisci, mollitia aliquam nihil animi est fugiat voluptates quam perspiciatis quos. Consectetur dicta enim adipisci. Voluptatibus, rerum nihil facere nam tempora sint enim!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt consectetur architecto omnis tempore ea dicta natus minus distinctio placeat dolores, numquam qui earum facilis. Quam placeat, nam minus cum corporis animi tempore consequuntur, facilis aliquam debitis quisquam dolorem ipsa magnam accusantium culpa necessitatibus, nostrum magni distinctio quaerat consequatur! Placeat!</p>
-        </div>
-    </section>
+
+        </section>
+    </div>
 </body>
 </html>
