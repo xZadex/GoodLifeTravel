@@ -10,6 +10,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #ebebeb;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -41,14 +42,20 @@ body {
   list-style: none;
 }
 
-.navbar .nav-item-list .nav-item {
+.navbar .nav-item-list a {
   color: #1676ba;
-  font-size: 1.5em;
-  font-family: 'Nanum Myeongjo', serif;
+  text-decoration: none;
   text-shadow: 0px 0px 4px rgba(2, 90, 242, 0.561);
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.5em;
 }
 
-.navbar .nav-item-list .nav-item:hover {
+.navbar .nav-item-list a:visited {
+  color: #1676ba;
+  text-decoration: none;
+}
+
+.navbar .nav-item-list a:hover {
   color: white;
   font-size: 1.5em;
   text-shadow: 0px 0px 4px #9c9c9c;
@@ -74,6 +81,16 @@ body {
   display: none;
 }
 
+.mobile-nav .mobile-nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-nav .mobile-nav-list a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,7 +101,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 6rem;
+  padding: 6rem 0 7rem 0;
 }
 
 .hero .hero-img-container {
@@ -246,6 +263,49 @@ body {
   display: block;
   -webkit-transition: .3s ease;
   transition: .3s ease;
+}
+
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 5rem 0;
+  background: #1676ba;
+}
+
+.about-section h2 {
+  padding: 2em;
+  color: white;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.about-section .about-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-section .about-content-container p {
+  padding: 10%;
+  color: white;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-content-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
