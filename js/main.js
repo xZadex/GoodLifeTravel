@@ -15,3 +15,19 @@ function toggleMenu() {
      menuButton.className = 'fa-solid fa-xmark';
    }
  }
+
+
+
+ // to top button
+ let topButton = document.getElementById("top-button");
+
+let showToTop = function () {
+    let y = window.scrollY;
+    if (y >= 200) {
+        topButton.className = "to-top-button";
+    } else {
+        topButton.className = "to-top-button-hide";
+    }
+};
+
+window.addEventListener("scroll", showToTop);
