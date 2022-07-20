@@ -440,8 +440,8 @@ body {
 .contact-section .form fieldset button {
   position: relative;
   left: 85px;
-  bottom: -10px;
-  padding: .5em;
+  bottom: -15px;
+  padding: 1em;
   border-radius: 50px;
   border: none;
   cursor: pointer;
